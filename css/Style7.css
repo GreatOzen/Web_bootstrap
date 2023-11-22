@@ -8,6 +8,11 @@ body {
     border: 1px solid #ccc;
 }
 
+.Ozen {
+    width: 60%;
+    height: auto;
+}
+
 .navbar-dark .navbar-toggler-icon {
     background-color: #fff;
 }
