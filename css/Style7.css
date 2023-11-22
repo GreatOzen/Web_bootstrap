@@ -8,11 +8,6 @@ body {
     border: 1px solid #ccc;
 }
 
-.Ozen {
-    width: 60%;
-    height: auto;
-}
-
 .navbar-dark .navbar-toggler-icon {
     background-color: #fff;
 }
@@ -101,6 +96,19 @@ body {
     color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .custom-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-container {
+    width: 100%;
+  }
+}
+
 .sticky-menu .nav-item {
     border: 1px solid #ffffff;
     border-radius: 5px;
@@ -132,7 +140,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
-
+.Ozen {
+    width: 60%;
+    height: auto;
+}
 
 
 
